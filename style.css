@@ -460,7 +460,16 @@ textarea {
   transform: translateY(-5px);
 }
 
-@media screen and (max-width: 768px) {
+/* Hide hamburger by default */
+.hamburger {
+  display: none;
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+
+@media screen and (max-width: 999px) {
   .container {
     width: 100%;
     padding: 0 15px;
@@ -482,19 +491,7 @@ textarea {
   .width-33, .width-66 {
     width: 100%;
   }
-}
-
-/* Hide hamburger by default */
-.hamburger {
-  display: none;
-  font-size: 26px;
-  color: white;
-  cursor: pointer;
-  padding: 10px;
-}
-
-/* Only show hamburger on mobile/tablet */
-@media screen and (max-width: 768px) {
+  
   .hamburger {
     display: block;
     position: absolute;
