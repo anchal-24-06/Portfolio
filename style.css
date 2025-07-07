@@ -123,7 +123,7 @@ nav a:hover {
 }
 .heading-text {
     width: 100%;
-    float: left;
+    /* float: left; */
     font-size: 35px;
     text-align: center;
     margin-bottom: 50px;
@@ -448,4 +448,80 @@ textarea {
     line-height: 50px;
     font-size: 20px;
     border-radius: 50%;
+}
+
+.glow-hover {
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-hover:hover {
+  box-shadow: 0 0 15px 4px #03fc66;
+  transform: translateY(-5px);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .skills-grid, .edu-exp {
+    flex-direction: column;
+  }
+
+  .skill-category, .edu-exp, .width-50 {
+    width: 100%;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .width-33, .width-66 {
+    width: 100%;
+  }
+}
+
+/* Hide hamburger by default */
+.hamburger {
+  display: none;
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* Only show hamburger on mobile/tablet */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+
+  nav {
+    display: none;
+    flex-direction: column;
+    background: #1a1a1a;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+    z-index: 999;
+    border-radius: 10px;
+    padding: 15px;
+  }
+
+  nav.show-nav {
+    display: flex !important;
+  }
+
+  nav a {
+    padding: 10px 0;
+    display: block;
+    color: white;
+  }
 }
