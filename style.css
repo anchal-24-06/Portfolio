@@ -427,6 +427,17 @@ textarea {
     font-size: 16px;
     margin-top: 5px;
 }
+
+.contact a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact a:hover {
+  color:#39ff14
+}
+
 /*****FOOTER SECTION*****/
 .footer {
     background-color: #202020;
@@ -434,6 +445,7 @@ textarea {
     width: 100%;
     float: left;
 }
+
 .footer-sect {
     color: #b3b3b3;
 }
@@ -451,6 +463,14 @@ textarea {
     line-height: 50px;
     font-size: 20px;
     border-radius: 50%;
+}
+
+/* .footer-sect a:hover {
+color: #39ff14;
+} */
+
+.social-icon a i:hover{
+  color: #39ff14;
 }
 
 .glow-hover {
