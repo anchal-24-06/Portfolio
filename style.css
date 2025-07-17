@@ -340,14 +340,14 @@ div[role="progressbar"] {
 } */
 
 .certificates-section {
-  background-color: #111; /* match your dark theme */
+  /* background-color: #111; match your dark theme */
   color: #fff;
   padding: 60px 0;
 }
 
 .certificates-section .section-title {
   text-align: center;
-  font-size: 32px;
+  font-size: 36px;
   color: #03fc66;
   margin-bottom: 40px;
 }
@@ -372,14 +372,6 @@ div[role="progressbar"] {
   margin-bottom: 15px;
 }
 
-.certificate-card ul {
-  list-style-type: disc;
-  margin-left: 20px;
-}
-
-.certificate-card ul ul {
-  list-style-type: circle;
-}
 
 .certificate-btn {
   display: inline-block;
