@@ -352,7 +352,7 @@ div[role="progressbar"] {
   margin-bottom: 40px;
 }
 
-.certificate-card {
+/* .certificate-card {
   background-color: #1e1e1e;
   padding: 25px;
   border-radius: 15px;
@@ -360,7 +360,7 @@ div[role="progressbar"] {
   max-width: 800px;
   box-shadow: 0 0 10px rgba(163, 255, 179, 0.2);
   transition: transform 0.3s ease;
-}
+} */
 
 /* .certificate-card:hover {
   transform: translateY(-5px);
