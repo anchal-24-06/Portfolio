@@ -372,6 +372,12 @@ div[role="progressbar"] {
   margin-bottom: 15px;
 }
 
+.certificate-grid {
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 40px 20px;
+}
 
 .certificate-btn {
   display: inline-block;
@@ -636,4 +642,9 @@ color: #39ff14;
     display: block;
     color: white;
   }
+
+  .certificate-grid {
+    grid-template-columns: 1fr;
+  }
+
 }
