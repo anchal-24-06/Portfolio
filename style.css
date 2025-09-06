@@ -383,7 +383,7 @@ div[role="progressbar"] {
   display: inline-block;
   margin-top: 12px;
   padding: 8px 16px;
-  background-color: #27ae60; /* A greenish color */
+  background-color: #27ae60;
   color: #fff;
   text-decoration: none;
   border-radius: 6px;
